@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 0 50px;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-list p {
+    font-size: 18px;
+}
+
+.second-list {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #c5bebe;
+}
+
+.hero-section h1 {
+    font-family: 'Geologica', sans-serif;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.box-container {
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box-1 {
+    width: 300px;
+    height: 200px;
+}
+
+.box-1 p {
+    font-size: 16px;
+    color: #c5bebe;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.box-1 h6 {
+    font-size: 16px;
+    color: #c5bebe;
+    font-weight: 300;
+}
+
+.box-1 h5 span {
+    font-size: 17px;
+    color: aliceblue;
+    font-weight: 400;
+    border-bottom: 2px solid white;
+}
+
+/* card-section */
+
+.card-section {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-1 {
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #F2B2D7;
+    color: black;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.img-part {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.card-2 {
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #D0E957;
+    color: black;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.card-3 {
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #FFBC01;
+    color: black;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.card-4 {
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #FFF9F7;
+    color: black;
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: column;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.card-section p {
+    font-size: 20px;
+}
+
+.card-section h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.card-2 span {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.card-2 span i {
+    font-size: 40px;
+}
+
+
+
+
+@media (max-width:768px) {
+
+    nav {
+        width: 100%;
+        height: auto;
+    }
+
+    .second-list {
+        width: 50%;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: auto;
+    }
+
+    .box-container {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .card-section {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        padding-bottom: 50px;
+    }
+
+    .card-1 {
+        margin: 10px;
+    }
+
+    .card-2 {
+        margin: 10px;
+    }
+
+    .card-3 {
+        margin: 10px;
+    }
+
+    .card-4 {
+        margin: 10px;
+    }
+
+}
